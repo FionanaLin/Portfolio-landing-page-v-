@@ -1,0 +1,115 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-color: #f6d5b6;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#first {
+  stroke-dasharray: 438px;
+  stroke-dashoffset: 438px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 263px;
+  stroke-dashoffset: 263px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#third {
+  stroke-dasharray: 399px;
+  stroke-dashoffset: 399px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#fourth {
+  stroke-dasharray: 412px;
+  stroke-dashoffset: 412px;
+  animation: fadeInside 0.6s ease-in forwards 0.9s;
+}
+
+#fifth {
+  stroke-dasharray: 450px;
+  stroke-dashoffset: 450px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#sixth {
+  stroke-dasharray: 349px;
+  stroke-dashoffset: 349px;
+  animation: fadeInside 0.6s ease-in forwards 1.5s;
+}
+
+#seventh {
+  stroke-dasharray: 263px;
+  stroke-dashoffset: 263px;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
+}
+
+#eighth {
+  stroke-dasharray: 412px;
+  stroke-dashoffset: 412px;
+  animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+
+#ninth {
+  stroke-dasharray: 1678px;
+  stroke-dashoffset: 1678px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#tenth {
+  stroke-dasharray: 1307px;
+  stroke-dashoffset: 1307px;
+  animation: fadeInside 0.6s ease-in forwards 0.4s;
+}
+
+#eleventh {
+  stroke-dasharray: 1336px;
+  stroke-dashoffset: 1336px;
+  animation: fadeInside 0.6s ease-in forwards 0.8s;
+}
+
+#twelfth {
+  stroke-dasharray: 1608px;
+  stroke-dashoffset: 1608px;
+  animation: fadeInside 0.6s ease-in forwards 1.3s;
+}
+
+#thirteenth {
+  stroke-dasharray: 1557px;
+  stroke-dashoffset: 1557px;
+  animation: fadeInside 0.6s ease-in forwards 1.7s;
+}
+
+#fourteenth {
+  stroke-dasharray: 1519px;
+  stroke-dashoffset: 1519px;
+  animation: fadeInside 0.6s ease-in forwards 2.1s;
+}
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+svg {
+  animation: fill 1s ease-in forwards 2.1s;
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: white;
+  }
+}
